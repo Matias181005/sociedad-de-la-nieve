@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #d3cac2;
+      }
+      header {
+        background-color: #A8CED6;
+        padding: 15px;
+      }
+      .logo {
+        width: 100px;
+        margin-right: 10px;
+      }
+      header h1 {
+        float: left;
+      }
+      .menu {
+        display: flex; /*desplegamos en una linea*/
+        background-color: #d6dcdd; /*color de fondo*/
+        padding: 5px; /*espacio entre la caja*/
+        float: right; /*ubicacion en la derecha*/
+      }
+      /*.(nombre de la clase)*/
+      .menu a {
+        /* todos las etiquetas a dentro de menu*/
+        color: black; /*color de la letra*/
+        text-align: center; /*alineacion al centro*/
+        padding: 14px 16px; /*color de la letra (arriba, derecha,abajo,izquierda)*/
+        text-decoration: none; /*indicamos que no tiene decoracion*/
+      }
+
+      .menu a:hover {
+        /*en el menu y cubra la etiqueta a cambia de color*/
+        background-color: #e64663; /*indicamos el color*/
+      }
+      .contenido {
+        margin-top: 5px; /*le damos espacio de margen (top=arriba,bot=abajo,rigth=derecha,left=izquierda)*/
+      }
+      .img{
+        /* para centrar imagen #id .class*/
+        object-fit: cover;
+        margin-left: 500px;       
+      }
+
+      .texto {
+        /* modifica la tipografia*/
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        /* modifica el tamaño de la letra*/
+        font-size: medium;
+      }
+      .texto1 {
+        /* modifica la tipografia*/
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        /* modifica el tamaño de la letra*/
+        font-size: x-large;
+        color: #e64663;
+      }
+        .section{
+            margin-top: 80px;
+        }  
+        #imagen{
+            display: block;
+            width: 400px;
+            height: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="icono.jpeg" alt="Logo" class="img" />
+      </div>
+      <h1>SOCIEDAD DE LA NIEVE RESUMEN</h1>      
+    </header>
+    <nav class="menu">
+      <a href="#rugbi">Equipo De rugbi</a>
+      <a href="#busqueda de alimentos">Busqueda de Alimentos</a>
+      <a href="#salvacionf">Salvacion?</a>
+      <a href="#avalancha">Avalanchas</a>
+      <a href="#salvacion">Salvacion</a>
+      <a href="#testimonios">Testimonios</a>
+    </nav>
+    <main class="contenido">
+        <section class="section">
+            <a name="rugbi"></a>
+            <h2 class="texto1">EQUIPO DE RUGBI</h2>
+            <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+            </p>
+
+
+        <h3 class="texto1">Miembros del Equipo</h3>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+        <img src="equipo de rugbi.jpeg  " alt="la imagen no esta disponible" id="imagen" />
+        <h3 class="texto1">Accidente</h3>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+        <img src="accidente.png" alt="la imagen no esta disponible" id="imagen"  />
+      </section>
+      <section>
+        <a id="busqueda de alimentos"></a>
+        <h2 class="texto1">Busqueda de aliementos</h2>
+        <h3 class="texto1">1ra busqueda de la cola del avion</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <h3 class="texto1">Desistimiento de Busqueda</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <img src="cola.jpeg" alt="la imagen no esta disponible" id="imagen"  />
+          <h3 class="texto1">Canivalismo</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <img src="canivalismo.jpg" alt="la imagen no esta disponible" id="imagen"  />
+      </section>
+      <section>
+        <a id="salvacionf"></a>
+        <h2 class="texto1">Salvacion?</h2>
+        <h3 class="texto1">1er avistamiento ignorado</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <h3 class="texto1">2do avistamiento ignorado</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <h3 class="texto1">3er avistamiento ignorado</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <img src="avistamientos.jpeg" alt="la imagen no esta disponible" id="imagen"  />
+      </section>
+      </section>
+      <section>
+        <a id="avalancha"></a>
+        <h2 class="texto1">Avalanchas</h2>
+        <h3 class="texto1">1ra avalancha</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <h3 class="texto1">2da avalancha</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+            <img src="avalancha.jpeg" alt="la imagen no esta disponible" id="imagen"  />
+        </section>
+      <section>
+        <a id="salvacion"></a>
+        <h2 class="texto1">Salvacion</h2>
+        <p class="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+          autem magnam id assumenda sapiente impedit incidunt, temporibus,
+          cupiditate dolores illum inventore delectus voluptates dolor
+          repellendus laboriosam hic? Tempora, deleniti tempore.
+        </p>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+        <img src="salvacion.jpg" alt="la imagen no esta disponible" id="imagen"  />
+      </section>
+      <section>
+        <a id="testimonios"></a>
+        <h2 class="texto1">Testimonios</h2>
+        <h3 class="texto1">Eduard Strauch(sobreviviente)</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <img src="eduard.jpg" alt="la imagen no esta disponible" id="imagen" />
+          <h3 class="texto1">Pedro Algorta(sobreviviente)</h3>
+          <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <img src="pedro.jpeg" alt="la imagen no esta disponible" id="imagen" />
+          <h3 class="texto1">Jose Luis Iniciarte(sobreviviente)</h3>
+        <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <p class="texto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            autem magnam id assumenda sapiente impedit incidunt, temporibus,
+            cupiditate dolores illum inventore delectus voluptates dolor
+            repellendus laboriosam hic? Tempora, deleniti tempore.
+          </p>
+          <img src="jose luis.jpeg" alt="la imagen no esta disponible" id="imagen" />
+      </section>
+    </main>
+    <footer>
+      <p class="texto">Derechos Reservados Matias Tejerina</p>
+    </footer>
+  </body>
+</html>
